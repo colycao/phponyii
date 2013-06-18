@@ -32,7 +32,7 @@
 				array('label'=>'Screencasts', 'url'=>array('/site/page', 'view'=>'screencasts')),
 				array('label'=>'Documentation', 'url'=>array('/site/page', 'view'=>'documentation')),
 				array('label'=>'Ecosystem', 'url'=>array('/site/page', 'view'=>'ecosystem')),
-				array('label'=>'Blog', 'url'=>array('/post/index')),
+				array('label'=>'Blog', 'url'=>'http://www.php2py.com/'),
                 /*
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),

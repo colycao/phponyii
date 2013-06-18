@@ -928,3 +928,111 @@ Stack trace:
 REQUEST_URI=/phponyii/index.php?r=post/index
 HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php?r=site/page&view=ecosystem
 ---
+2013/06/18 10:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php?r=post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php?r=site/page&view=ecosystem
+---
+2013/06/18 10:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php/site/page?view=ecosystem
+---
+2013/06/18 11:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deploy".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('deploy')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php/deploy
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php/download
+---
+2013/06/18 11:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deploy".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('deploy')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php/deploy
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php/download
+---
+2013/06/18 11:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "screencasts".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('screencasts')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php/screencasts
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php/deploy
+---
+2013/06/18 11:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "documentation".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('documentation')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/index.php/documentation
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/index.php/screencasts
+---
+2013/06/18 11:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/ecosystem
+---
+2013/06/18 11:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/ecosystem
+---
+2013/06/18 11:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/post/index
+---
+2013/06/18 11:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/post/index
+---
+2013/06/18 11:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/site/index
+---
+2013/06/18 11:07:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/coly/Sites/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/coly/Sites/phponyii/shouYe.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phponyii/post/index
+HTTP_REFERER=http://127.0.0.1:1000/phponyii/site/index
+---
